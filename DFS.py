@@ -28,4 +28,4 @@ def dfs(graph, start, goal):
 
     return None
 
-print("BFS path:", dfs(graph_unweighted, 'A', 'G'))
+print("DFS path:", dfs(graph_unweighted, 'A', 'G'))
